@@ -4,9 +4,9 @@ This repo contains your assignment starter files, including the Highcharts code.
 
 1. **Fork** this repo (make sure you are logged into GitHub).
 
-2. **Clone** your new repo so you have it on your hard drive. Remember to save it into the folder where you are keeping all your GitHub projects for this course. If you forgot how to fork and clone, [see the previous assignment](https://github.com/macloo/CSS-intro-with-GitHub-2016/blob/master/README.md).
+2. **Clone** your new repo so you have it on your hard drive. Remember to save it into the folder where you are keeping all your GitHub projects for this course. If you forgot how to fork and clone, see [this](https://github.com/macloo/CSS-intro-with-GitHub-2017/blob/master/README.md).
 
-3. Use your GitHub Desktop app to create a **local branch** named *gh-pages*. **Switch to that branch** and do all your work in that branch. Note that the hyphen and all lowercase letters are essential in the branch name *gh-pages*.
+3. Use your GitHub Desktop app to create a **local branch** named *gh-pages*. **Switch to that branch** and do all your work in that branch. Note that the hyphen and all lowercase letters are essential in the branch name *gh-pages*. See the last two pages [here](http://bit.ly/newGHapp) if you feel confused.
 
 You will NOT submit a pull request.
 
@@ -14,10 +14,10 @@ You will NOT submit a pull request.
 
 All other instructions for the assignment are [in this document](http://bit.ly/mm-webapps8).
 
-## Commit and sync
+## Commit and publish/push
 
-When everything is finished, save all files, and commit and sync (Publish) to GitHub. Be sure to stay in your *gh-pages* branch for all steps. DO NOT forget to Publish/Sync your repo!
+When everything is finished, save all files, and commit and push (publish) to GitHub. Be sure to stay in your *gh-pages* branch for all steps. DO NOT forget to Publish your repo!
 
 ## Check the rubric and submit in Canvas
 
-Be sure to check the rubric in the instructions document, and **SUBMIT THE URL of your GitHub repo** there to complete this assignment!
+Be sure to check the rubric *in the instructions document*, and **SUBMIT THE URL of your GitHub repo in Canvas** to complete this assignment.
