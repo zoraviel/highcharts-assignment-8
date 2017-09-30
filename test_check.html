@@ -1,66 +1,63 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Test: My first chart with Highcharts</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Test: My first chart with Highcharts</title>
 
-        <!-- add jQuery in the head of your page -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"> </script>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
 
-        <!-- add Highcharts in the head of your page -->
-        <script src="js/highcharts.js"></script>
+  <!-- add Highcharts in the head of your page -->
+  <script src="https://code.highcharts.com/highcharts.js"></script>
 
-        <!-- change to another Highcharts theme - optional -->
-        <script src="js/themes/dark-green.js"></script>
+  <!-- change the Highcharts theme -->
+  <script src="https://code.highcharts.com/themes/gray.js"></script>
 
-        <!-- add print and export features - this is optional -->
-        <script src="js/modules/exporting.js"></script>
+  <!-- add print and export features - this is optional -->
+  <script src="https://code.highcharts.com/modules/exporting.js"></script>
 </head>
+
 <body>
 
-<h1>Test: My first chart with Highcharts</h1>
+  <h1>Test and check: My first chart with Highcharts</h1>
 
-<!-- add the container div - you can adjust width and height -->
-<div id="container" style="width: 50%; height: 400px;"></div>
+  <!-- this container div will hold one chart -->
+  <div id="container"></div>
 
-<!-- IMPORTANT: When you have linked a .css file to your own HTML page,
-    DO NOT put the styles for the container into the HTML, which I have done
-    here! Instead, style the #container in your CSS file. -->
+  <p>This is an example of a simple chart embedded in a Web page. The chart data came from Highcharts: <a href="https://www.highcharts.com/docs/getting-started/your-first-chart" target="_blank">Your First Chart</a>.</p>
 
-<p>This is an example of a simple chart embedded in a Web page. The chart data came from Highcharts: <a href="http://www.highcharts.com/docs/getting-started/your-first-chart" target="_blank">Your First Chart</a>.</p>
+  <p>Charts are usually placed somewhere in the middle of an article for which the chart provides additional information. Most numerical data is easier for the reader to understand when it appears in chart form.</p>
 
-<p>Charts are usually placed somewhere in the middle of an article for which the chart provides additional information. Most numerical data is easier for the reader to understand when it appears in chart form.</p>
-
-<!-- add the script for the chart BEFORE the closing /body tag -->
-<script>
-$(document).ready(function(){
-    $('#container').highcharts({
-        chart: {
-            type: 'bar'
-        },
+  <!-- add the script for the chart BEFORE the closing /body tag -->
+  <script>
+    Highcharts.chart('container', {
+      chart: {
+        type: 'bar'
+      },
+      title: {
+        text: 'Fruit Consumption'
+      },
+      xAxis: {
+        categories: ['Apples', 'Bananas', 'Oranges', 'Mangoes']
+      },
+      yAxis: {
         title: {
-            text: 'Fruit Consumption'
-        },
-        xAxis: {
-            categories: ['Apples', 'Bananas', 'Oranges', 'Mangoes']
-        },
-        yAxis: {
-            title: {
-                text: 'Fruit that was eaten last week'
-            }
-        },
-        series: [{
-            name: 'Scott',
-            data: [1, 0, 4, 2]
-        }, {
-            name: 'Susan',
-            data: [5, 7, 3, 0]
-        }]
+          text: 'Fruit that was eaten last week'
+        }
+      },
+      series: [{
+        name: 'Scott',
+        data: [1, 0, 4, 2]
+      }, {
+        name: 'Susan',
+        data: [5, 7, 3, 0]
+      }]
     });
-});
-</script>
+  </script>
 
 
 </body>
+
 </html>
