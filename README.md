@@ -10,11 +10,13 @@ This repo contains your assignment starter files, including the Highcharts code.
 
 You will NOT submit a pull request.
 
-## Instructions: How to complete the assignment 
+## Instructions: How to complete the assignment
 
 All other instructions for the assignment are [in this document](http://bit.ly/mm-webapps8).
 
 The file *test_check.html* is finished. The file *first_chart.html* is for your own first chart.
+
+The file *test_check_alternate.html* is identical to the other file (*test_check.html*) except in one respect: *test_check_alternate.html* uses LOCAL files to load the Highcharts code. The other file (*test_check.html*) uses a CDN, meaning the Highcharts files it uses are online.
 
 ## Commit and publish/push
 
