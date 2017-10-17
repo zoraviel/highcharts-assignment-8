@@ -18,6 +18,8 @@ The file *test_check.html* is finished. The file *first_chart.html* is for your 
 
 The file *test_check_alternate.html* is identical to the other file (*test_check.html*) except in one respect: *test_check_alternate.html* uses LOCAL files to load the Highcharts code. The other file (*test_check.html*) uses a CDN, meaning the Highcharts files it uses are online.
 
+You do not need to use the files *scripts_bottom.html* or *scripts_bottom_external_chart.html* &mdash; they only demonstrate alternative ways to handle the JavaScript `script` elements.
+
 ## Commit and publish/push
 
 When everything is finished, save all files, and commit and push (publish) to GitHub. Be sure to stay in your *gh-pages* branch for all steps. DO NOT forget to Publish your repo!

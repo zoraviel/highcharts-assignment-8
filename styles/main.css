@@ -19,6 +19,11 @@ body {
 
 p { line-height: 1.5em; }
 
+.subtitle {
+  font-size: 1.7em;
+  font-style: italic;
+}
+
 /* links */
 
 a {
