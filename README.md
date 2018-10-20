@@ -14,15 +14,19 @@ You will NOT submit a pull request.
 
 ## Instructions: How to complete the assignment
 
-All other instructions for the assignment are [in this document](http://bit.ly/mm-webapps8).
+All instructions for the assignment are [in this document](http://bit.ly/mm-webapps8).
 
 The file *test_check.html* is finished.
 
 The file *first_chart.html* is for your own first chart. You will modify this file.
 
-The file *test_check_alternate.html* is identical to the other file (*test_check.html*) except in one respect: *test_check_alternate.html* uses LOCAL files to load the Highcharts code. The other file (*test_check.html*) uses a **CDN,** meaning the Highcharts files it uses are online.
+### Files you will not use in the assignment
 
-You do not need to use the files *scripts_bottom.html* or *scripts_bottom_external_chart.html* &mdash; they only demonstrate alternative ways to handle the JavaScript `script` elements.
+* *scripts_bottom.html* demonstrates an alternative way to handle the JavaScript `script` elements, putting them at the *bottom* of the HTML file instead of in the HEAD. They must be ABOVE the closing `body` tag.
+
+* *scripts_bottom_external_chart.html* is identical to *scripts_bottom.html* except in one respect: The code for the Highcharts chart is in an **external file,** *my_chart_code.js*, instead of being included in the HTML.
+
+* *test_check_alternate.html* is identical to *test_check.html* except in one respect: *test_check_alternate.html* uses LOCAL files to load the Highcharts code. The other file (*test_check.html*) uses a **CDN,** meaning the Highcharts files it uses are online.
 
 ## Commit and publish/push
 
