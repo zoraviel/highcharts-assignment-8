@@ -8,7 +8,7 @@ Highcharts code version: 6.2.0 (updated October 2018).
 
 2. **Clone** your new repo so you have it on your hard drive. Remember to save it into the folder where you are keeping all your GitHub projects for this course. If you forgot how to fork and clone, see [this](https://github.com/macloo/CSS-and-GitHub-intro/blob/master/README.md).
 
-3. Use your GitHub Desktop app to create a **local branch** named *gh-pages*. **Switch to that branch** and do all your work in that branch. Note that the hyphen and all lowercase letters are essential in the branch name *gh-pages*. If you are confused about *gh-pages* or making a new branch, see the last two pages [in this document](http://bit.ly/newGHapp).
+3. **New branch:** Use your GitHub Desktop app to create a **local branch** named *gh-pages*. **Switch to that branch** and do all your work in that branch. Note that the hyphen and all lowercase letters are essential in the branch name *gh-pages*. If you are confused about *gh-pages* or making a new branch, see the last two pages [in this document](http://bit.ly/newGHapp).
 
 You will NOT submit a pull request.
 
