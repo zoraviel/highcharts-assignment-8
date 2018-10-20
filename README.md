@@ -28,6 +28,8 @@ The file *first_chart.html* is for your own first chart. You will modify this fi
 
 * *test_check_alternate.html* is identical to *test_check.html* except in one respect: *test_check_alternate.html* uses LOCAL files to load the Highcharts code. The other file (*test_check.html*) uses a **CDN,** meaning the Highcharts files it uses are online.
 
+You can view any of the HTML files by simply opening them in your browser.
+
 ## Commit and publish/push
 
 When everything is finished, save all files, and commit and push (publish) to GitHub. Be sure to stay in your *gh-pages* branch for all steps. DO NOT forget to **publish** your repo! Remember, THREE STEPS are necessary:
