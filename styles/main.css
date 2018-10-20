@@ -5,27 +5,26 @@
 body {
   background: #fff;
   color: #000;
-  font-family: "Verdana", sans-serif;
-  margin: 4em;
+  font-family: 'Verdana', sans-serif;
+  margin: 4rem;
 }
 
 
-/*  #container div (below) wraps one chart  */
+/*  the #container div (below) holds one chart  */
 
 #container {
   width: 60%;
   height: 500px;
 }
 
-p { line-height: 1.5em; }
+p { line-height: 1.5rem; }
 
 .subtitle {
-  font-size: 1.7em;
+  font-size: 1.7rem;
   font-style: italic;
 }
 
-/* links */
-
+/* link styles */
 a {
   color: #0287b3;
 }
@@ -34,5 +33,14 @@ a:hover {
   color: #3ecbfa;
 }
 
-
-/* put your media queries below */
+/* put media queries below - I used two; the ORDER matters! */
+@media screen and (max-width: 1000px) {
+    #container {
+      width: 100%;
+    }
+}
+@media screen and (max-width: 750px) {
+    body {
+      margin: 1rem;
+    }
+}
