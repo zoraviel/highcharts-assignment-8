@@ -1,6 +1,6 @@
 # Highcharts and JavaScript (Assignment 8)
 
-This repo contains your assignment starter files, including the Highcharts code.
+This repo contains your assignment starter files, including the [Highcharts](https://www.highcharts.com/download) code.
 
 Highcharts code version: 6.2.0 (updated October 2018).
 
