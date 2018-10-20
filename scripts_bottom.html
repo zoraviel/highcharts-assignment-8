@@ -3,15 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Test and check: My first chart with Highcharts</title>
+  <title>Test and check: A first chart with Highcharts</title>
 
-  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/normalize.min.css">
   <link rel="stylesheet" href="styles/main.css">
 
 </head>
 <body>
 
-  <h1>Test and check: My first chart with Highcharts (with CDN)</h1>
+  <h1>Test and check: A first chart with Highcharts (with CDN)</h1>
   <p class="subtitle">All JavaScript at end of file, not in HEAD</p>
 
   <!-- this container div will hold one chart -->
@@ -19,14 +19,17 @@
 
   <p>This is an example of a simple chart embedded in a Web page. The chart data came from Highcharts: <a href="https://www.highcharts.com/docs/getting-started/your-first-chart" target="_blank">Your First Chart</a>. The Highcharts Basic Bar Chart demo is <a href="https://www.highcharts.com/demo/bar-basic" target="_blank">here</a> &mdash; it uses the latest version of the JavaScript code. Note that the chart's <em>bars become thicker</em> if you add height to the CSS for your container DIV.</p>
 
-  <p>Charts are usually placed somewhere in the middle of an article for which the chart provides additional information. Most numerical data is easier for the reader to understand when it appears in chart form. <a href="https://blog.hubspot.com/marketing/data-visualization-choosing-chart" target="_blank">Choosing the best chart type</a> to suit your data is very important when you want to communicate the information effectively.</p>
+
 
   <!-- add Highcharts at the end of your page -->
   <script src="https://code.highcharts.com/highcharts.js"></script>
+
   <!-- change the Highcharts theme -->
   <script src="https://code.highcharts.com/themes/gray.js"></script>
+
   <!-- add print and export features - this is optional -->
   <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
   <!-- NOTE that the specific chart script MUST come BELOW all other Highcharts JavaScript code -->
   <!-- be sure to add the script for the chart ABOVE the closing /body tag
        Note that the script is completely separate from the container DIV
