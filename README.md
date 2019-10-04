@@ -1,16 +1,14 @@
 # Highcharts and JavaScript (Assignment 8)
 
-This repo contains your assignment starter files, including the [Highcharts](https://www.highcharts.com/download) code.
+This repo contains your assignment starter files, including the [Highcharts](https://www.highcharts.com/blog/products/highcharts/) code from the [download page](https://www.highcharts.com/blog/download/).
 
-Highcharts code version: 6.2.0 (updated October 2018).
+Highcharts code version: 7.2.0 (updated October 2019).
 
 1. **Fork** this repo (make sure you are logged into GitHub).
 
-2. **Clone** your new repo so you have it on your hard drive. Remember to save it into the folder where you are keeping all your GitHub projects for this course. If you forgot how to fork and clone, see [this](https://github.com/macloo/CSS-and-GitHub-intro/blob/master/README.md).
+2. **Clone** your new repo so you have it on your hard drive. Remember to save it into the folder where you are keeping all your GitHub projects for this course. If you forgot how to fork and clone, [see this](https://github.com/macloo/github-howto-and-github-desktop/tree/master/forking_and_cloning).
 
-3. **New branch:** Use your GitHub Desktop app to create a **local branch** named *gh-pages*. **Switch to that branch** and do all your work in that branch. Note that the hyphen and all lowercase letters are essential in the branch name *gh-pages*. If you are confused about *gh-pages* or making a new branch, see the last two pages [in this document](http://bit.ly/newGHapp).
-
-You will NOT submit a pull request.
+3. **New branch:** Use your GitHub Desktop app to create a **local branch** named *gh-pages*. **Switch to that branch** and do all your work in that branch. Note that the hyphen and all lowercase letters are essential in the branch name *gh-pages*. If you are confused about *gh-pages* or making a new branch, [see this](https://github.com/macloo/github-howto-and-github-desktop/tree/master/git_branches).
 
 ## Instructions: How to complete the assignment
 
