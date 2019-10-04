@@ -1,13 +1,13 @@
 /*
- Highcharts JS v6.2.0 (2018-10-17)
+ Highcharts Gantt JS v7.2.0 (2019-09-03)
+
  StaticScale
 
- (c) 2016 Torstein Honsi, Lars A. V. Cabrera
-
- --- WORK IN PROGRESS ---
+ (c) 2016-2019 Torstein Honsi, Lars A. V. Cabrera
 
  License: www.highcharts.com/license
 */
-(function(a){"object"===typeof module&&module.exports?module.exports=a:"function"===typeof define&&define.amd?define(function(){return a}):a(Highcharts)})(function(a){(function(c){var a=c.Chart,f=c.each,g=c.pick;c.addEvent(c.Axis,"afterSetOptions",function(){this.horiz||!c.isNumber(this.options.staticScale)||this.chart.options.chart.height||(this.staticScale=this.options.staticScale)});a.prototype.adjustHeight=function(){"adjustHeight"!==this.redrawTrigger&&(f(this.axes||[],function(a){var b=a.chart,
-h=!!b.initiatedScale&&b.options.animation,d=a.options.staticScale,e;a.staticScale&&c.defined(a.min)&&(e=g(a.unitLength,a.max+a.tickInterval-a.min)*d,e=Math.max(e,d),d=e-b.plotHeight,1<=Math.abs(d)&&(b.plotHeight=e,b.redrawTrigger="adjustHeight",b.setSize(void 0,b.chartHeight+d,h)),f(a.series,function(a){(a=a.sharedClipKey&&b[a.sharedClipKey])&&a.attr({height:b.plotHeight})}))}),this.initiatedScale=!0);this.redrawTrigger=null};c.addEvent(a,"render",a.prototype.adjustHeight)})(a)});
+(function(a){"object"===typeof module&&module.exports?(a["default"]=a,module.exports=a):"function"===typeof define&&define.amd?define("highcharts/modules/static-scale",["highcharts"],function(c){a(c);a.Highcharts=c;return a}):a("undefined"!==typeof Highcharts?Highcharts:void 0)})(function(a){function c(a,b,c,d){a.hasOwnProperty(b)||(a[b]=d.apply(null,c))}a=a?a._modules:{};c(a,"modules/static-scale.src.js",[a["parts/Globals.js"],a["parts/Utilities.js"]],function(a,b){var c=b.defined,d=b.isNumber;b=
+a.Chart;var g=a.pick;a.addEvent(a.Axis,"afterSetOptions",function(){var a=this.chart.options&&this.chart.options.chart;!this.horiz&&d(this.options.staticScale)&&(!a.height||a.scrollablePlotArea&&a.scrollablePlotArea.minHeight)&&(this.staticScale=this.options.staticScale)});b.prototype.adjustHeight=function(){"adjustHeight"!==this.redrawTrigger&&((this.axes||[]).forEach(function(a){var b=a.chart,d=!!b.initiatedScale&&b.options.animation,e=a.options.staticScale;if(a.staticScale&&c(a.min)){var f=g(a.unitLength,
+a.max+a.tickInterval-a.min)*e;f=Math.max(f,e);e=f-b.plotHeight;1<=Math.abs(e)&&(b.plotHeight=f,b.redrawTrigger="adjustHeight",b.setSize(void 0,b.chartHeight+e,d));a.series.forEach(function(a){(a=a.sharedClipKey&&b[a.sharedClipKey])&&a.attr({height:b.plotHeight})})}}),this.initiatedScale=!0);this.redrawTrigger=null};a.addEvent(b,"render",b.prototype.adjustHeight)});c(a,"masters/modules/static-scale.src.js",[],function(){})});
 //# sourceMappingURL=static-scale.js.map
