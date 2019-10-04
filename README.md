@@ -33,7 +33,7 @@ You can view any of the HTML files by simply opening them in your browser.
 When everything is finished, save all files, and commit and push (publish) to GitHub. Be sure to stay in your *gh-pages* branch for all steps. DO NOT forget to **publish** your repo! Remember, THREE STEPS are necessary:
 
 1. Write a commit message (what you did)
-2. Click the commit button (bottom)
+2. Click the commit button (bottom) &mdash **Commit to gh-pages**
 3. Click the publish or push button (top)
 
 If you forgot how to commit and publish/push, [read this](https://github.com/macloo/github-howto-and-github-desktop/tree/master/git_commit_and_sync).
