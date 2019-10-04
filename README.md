@@ -8,15 +8,15 @@ Highcharts code version: 7.2.0 (updated October 2019).
 
 2. **Clone** your new repo so you have it on your hard drive. Remember to save it into the folder where you are keeping all your GitHub projects for this course. If you forgot how to fork and clone, [see this](https://github.com/macloo/github-howto-and-github-desktop/tree/master/forking_and_cloning).
 
-3. **New branch:** Use your GitHub Desktop app to create a **local branch** named *gh-pages*. **Switch to that branch** and do all your work in that branch. Note that the hyphen and all lowercase letters are essential in the branch name *gh-pages*. If you are confused about *gh-pages* or making a new branch, [see this](https://github.com/macloo/github-howto-and-github-desktop/tree/master/git_branches).
+3. **New branch:** Use your GitHub Desktop app to create a **local branch** named *gh-pages*. **Switch to that branch** and do all your work in that branch. Note that the hyphen and all lowercase letters are essential in the branch name *gh-pages*. If you are confused about *gh-pages* or making a new branch, [see this](https://github.com/macloo/github-howto-and-github-desktop/tree/master/git_branches). More info about *gh-pages* is [here](https://github.com/macloo/github-howto-and-github-desktop/tree/master/gh-pages).
 
 ## Instructions: How to complete the assignment
 
 All instructions for the assignment are [in this document](http://bit.ly/mm-webapps8).
 
-The file *test_check.html* is finished.
+The file *test_check.html* is finished. You will NOT change it.
 
-The file *first_chart.html* is for your own first chart. You will modify this file.
+The file *first_chart.html* is for your own first chart. **You will modify this file.**
 
 ### Files you will not use in the assignment
 
