@@ -36,6 +36,8 @@ When everything is finished, save all files, and commit and push (publish) to Gi
 2. Click the commit button (bottom)
 3. Click the publish or push button (top)
 
+If you forgot how to commit and publish/push, [read this](https://github.com/macloo/github-howto-and-github-desktop/tree/master/git_commit_and_sync).
+
 ## Check the rubric and submit in Canvas
 
 Be sure to check the rubric *in the instructions document*, and **SUBMIT THE URL of your GitHub repo in Canvas** to complete this assignment.
