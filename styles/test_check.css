@@ -1,0 +1,51 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+body {
+    background: #fff;
+    color: #000;
+    font-family: 'Verdana', sans-serif;
+    margin: 4rem; /* note, this will not work for all page layouts */
+}
+
+/*  the #container div (below) holds ONE chart  */
+#container {
+    width: 60%;
+    height: 500px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+code {
+    font-size: 1.4rem;
+    font-style: monotype;
+    color: #666;
+}
+
+/* link styles */
+a {
+    color: #0287b3;
+}
+
+a:hover {
+    color: #3ecbfa;
+}
+
+/* media queries below - two used here - the ORDER matters! */
+@media screen and (max-width: 1000px) {
+    #container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    body {
+        margin: 1rem;
+    }
+}
