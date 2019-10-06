@@ -1,4 +1,5 @@
 // code for a basic bar chart
+// see https://www.highcharts.com/demo/bar-basic 
 
 Highcharts.chart('container', {
     chart: {
