@@ -10,6 +10,8 @@ You will not need to use those files, however, because you can use a CDN instead
 
 All instructions for the assignment are [in this document](http://bit.ly/mm-webapps8).
 
+If you forgot how to **fork and clone** a GitHub repo, how to create a *gh-pages* **branch,** or how to **commit and push,** [see these instructions](https://github.com/macloo/github-howto-and-github-desktop).
+
 ### A file you will not use in the assignment
 
 * *scripts_local.html* is identical to *test_check.html* except in one respect: *scripts_local.html* uses LOCAL files to load the Highcharts code. The other file (*test_check.html*) uses a **CDN,** meaning the Highcharts files it uses are online.
