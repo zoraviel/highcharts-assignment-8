@@ -1,0 +1,42 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+body {
+    background: #fff;
+    color: #000;
+    font-family: 'Verdana', sans-serif;
+    margin: 4rem; /* note, this will not work for all page layouts */
+}
+
+/*  the #container div (below) holds ONE chart  */
+#container {
+}
+
+p {
+    line-height: 1.5;
+}
+
+
+/* link styles */
+a {
+    color: #0287b3;
+}
+
+a:hover {
+    color: #3ecbfa;
+}
+
+/* media queries below - CHANGE if needed so your chart works well on phones */
+
+@media screen and (max-width: 700px) {
+    body {
+        margin: 1rem;
+    }
+    #container {
+        width: 100%;
+    }
+}
